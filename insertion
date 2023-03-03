@@ -1,0 +1,19 @@
+[22,27,16,2,18,6]
+// en küçük olanı arıyoruz 22 ile yer değiştirecez. 6 adımda.
+[2,27,16,22,18,6]
+//2 tamamlandı. 27 yi değiştirecez. 5 adımda.
+[2,6,16,22,18,27] 
+// 6 tamamlandı. 16 yı değiştirecez. 4 adımda.
+[2,6,16,22,18,27]
+//16 tamamlandı. 22 yi değiştirecez. 3 adımda.
+[2,6,16,18,22,27]
+// 18 tamamlandı. 22 yi değiştirecez. 2 adımda.
+[2,6,16,18,22,27]
+//tamamlandı
+// bu tarz insertion sortinglerde big o notion worst case de n^2 ile bulunur.
+// bu sıralamada eğer 18 i arıyor olsaydık 18 ortada olduğundan average case olacaktı.
+[7,3,5,8,2,9,4,15,6] 
+[2,3,5,8,7,9,4,15,6] birinci adım
+[2,3,5,8,7,9,4,15,6]  ikinci adımd
+[2,3,4,8,7,9,5,15,6] üçüncü adım
+[2,3,4,5,7,9,8,15,6]  dördünc adım
